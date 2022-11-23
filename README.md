@@ -1,2 +1,2 @@
-# Amazon-Clone-
+# Amazon-Clone
 This is our Amazon clone project.
