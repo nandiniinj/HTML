@@ -5,6 +5,8 @@
     <title>Our Webpage</title>
     </head>
     <body>
+        <h1>Account Signup</h1>
+        <p>Please fill in this form to create an account.</p>
         <main>
             <form action="success.html" method="get">
                 <label for="name">First Name</label>
@@ -21,7 +23,19 @@
                 <label for="password">Password</label>
                 <input id="password" name="password" type="password" required><br>
                 <br>
-                <button type="submit">Sign Up</button>
+                <label for="psw-repeat">Repeat Password</label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                <br>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+                <br>
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none' class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signup">Sign Up</button>
+                </div>
             </form>
 
         </main>
